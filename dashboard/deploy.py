@@ -46,13 +46,13 @@ with tab1:
     
     plt.figure(figsize=(10, 6))
     plt.bar(filtered_data["State"], filtered_data["Total Customers"], color="green")
-    plt.title("Total Customers per State", fontsize=14)
+    plt.title("Total Customers per State ", fontsize=14)
     plt.xlabel("State", fontsize=12)
     plt.ylabel("Total Customers", fontsize=12)
     plt.xticks(rotation=45)
     st.pyplot(plt)
     
-    st.subheader("Kategori Customer Berdasarkan State")
+    st.subheader("Kategori Customer Berdasarkan State ")
     def categorize_customers(total):
         if total > 500:
             return "High"
