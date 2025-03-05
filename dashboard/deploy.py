@@ -105,7 +105,7 @@ with tab2:
     sns.lineplot(data=filtered_sales.groupby(['year', 'month'])['order_id'].count().reset_index(),
                  x='month', y='order_id', marker='o')
     plt.xlabel("Bulan")
-    plt.ylabel("Jumlah Pesanan")
+    plt.ylabel("Jumlah Pesana = ")
     plt.title(f"Tren Penjualan Tahun {selected_year}")
     plt.xticks(range(1, 13))
     plt.ylim(0)
