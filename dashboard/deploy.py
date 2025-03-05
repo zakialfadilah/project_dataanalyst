@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-data_customers = pd.read_csv("dashboard/customers_dataset.csv")
-data_order = pd.read_csv("dashboard/data_order_cleaned.csv")
+data_customers = pd.read_csv("customers_dataset.csv")
+data_order = pd.read_csv("data_order_cleaned.csv")
 
 st.write("""
     # Visualisasi Data Analysis E-Commerce
