@@ -7,7 +7,7 @@ data_customers = pd.read_csv("dashboard/customers_dataset.csv")
 data_order = pd.read_csv("dashboard/data_order_cleaned.csv")
 
 st.write("""
-    # Visualisasi Data Analysis E-Commerce
+    # Visualisasi Data Analysis E-Commerce 
 """)
 
 st.subheader('Pertanyaan & Tujuan Analisis')
